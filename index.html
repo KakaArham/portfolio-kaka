@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Kaka</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <div class="logo">Kaka Portfolio</div>
+            <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+            <div class="nav-links">
+                <button id="theme-toggle" class="btn">Ganti Mode ☀️</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-left">
+                    <img class="profile" src="img/Boruto.jpg" alt="Foto Profil Kaka">
+                </div>
+                <div class="hero-right">
+                    <h1 class="typing-container">
+                        Halo, Saya <span id="typewriter-text"></span><span class="cursor">|</span>
+                    </h1>
+                    <p class="lead">Calon Developer yang senang belajar hal baru dan membangun produk yang berguna.</p>
+
+                    <div class="skill-container">
+                        <div class="skill-card">HTML</div>
+                        <div class="skill-card">CSS</div>
+                        <div class="skill-card">JavaScript</div>
+                    </div>
+
+                    <a href="#" class="link-button">Hubungi Saya</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="project-section">
+            <div class="container">
+                <h2>Proyek Saya</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Website Portfolio</h3>
+                        <p>Dibuat dengan HTML, CSS, dan JS Dasar.</p>
+                        <a href="#">Lihat Detail</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Kalkulator Sederhana</h3>
+                        <p>Proyek berikutnya yang akan saya buat.</p>
+                        <a href="#">Coming Soon</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 3</h3>
+                        <p>Segera hadir di sini.</p>
+                        <a href="#">Coming Soon</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section container">
+            <h2>Kirim Pesan</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama Kamu" required>
+                <input type="email" placeholder="Email Kamu" required>
+                <textarea placeholder="Pesan..." rows="5"></textarea>
+                <button type="submit" class="link-button">Kirim Sekarang</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+</body>
+
+</html>
